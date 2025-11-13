@@ -23,7 +23,7 @@ This approach improves efficiency from **O(n³)** (brute force) to **O(n log n)*
 
 
 
-## **Algorithm **
+## Algorithm 
 
 1. **Generate Random Hotspots:**  
    Random (x, y) coordinates simulate wildfire detection points.
@@ -52,8 +52,10 @@ This approach improves efficiency from **O(n³)** (brute force) to **O(n log n)*
 | Operation | Time Complexity |
 |------------|-----------------|
 | Sorting (by x-coordinate) | O(n log n) |
-| Convex Hull (per half) | O(m log m) |
-| Merge Hulls | O(n) |
+| Divide | O(1) |
+| Conquer| O(n log n) |
+| Merge | O(n log n) |
+| Visualisation | O(n) |
 | **Overall** | **O(n log n)** |
 
 
@@ -63,7 +65,7 @@ This approach improves efficiency from **O(n³)** (brute force) to **O(n log n)*
   - `numpy` — numerical computation  
   - `matplotlib` — data visualization  
   - `scipy.spatial.ConvexHull` — convex hull algorithm
-  - 'random'-to generate random hotspots
+  - `random` -to generate random hotspots
 
 
 ```bash
