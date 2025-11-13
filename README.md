@@ -58,6 +58,8 @@ This approach improves efficiency from **O(n³)** (brute force) to **O(n log n)*
 | Visualisation | O(n) |
 | **Overall** | **O(n log n)** |
 
+## Space Complexity : O(n)
+
 
 ## **Tech Stack**
 - **Language:** Python  
