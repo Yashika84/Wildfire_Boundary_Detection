@@ -70,4 +70,8 @@ This approach improves efficiency from **O(n³)** (brute force) to **O(n log n)*
   - `random` -to generate random hotspots
 
 
+## Author
+Yashika Vashist
+Computer Science Student
+🎓 Manav Rachna International Institute of Research and Studies
 ```bash
